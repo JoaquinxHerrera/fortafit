@@ -39,17 +39,17 @@ export default function PieChartWithPaddingAngle({title, data, calories, protein
         <span className='flex-center'><b>{calories}Kcals</b></span>
         <div className='flex macro'>
             <div className='goalsLeft flex-center'><span >Protein</span></div>
-            <img src="src/assets/imgs/Arrow 1.png" alt="" />
+            <img src="/assets/imgs/Arrow 1.png" alt="" />
             <span className='goalsRight flex-center'>{protein} gr/day</span>
         </div>
         <div className='flex macro'>
             <div className='goalsLeft flex-center'><span >Carbs</span></div>
-            <img src="src/assets/imgs/Arrow 1.png" alt="" />
+            <img src="/assets/imgs/Arrow 1.png" alt="" />
             <span className='goalsRight flex-center'>{carbs} gr/day</span>
         </div>
         <div className='flex macro'>
             <div className='goalsLeft flex-center'><span >Fat</span></div>
-            <img src="src/assets/imgs/Arrow 1.png" alt="" />
+            <img src="/assets/imgs/Arrow 1.png" alt="" />
             <span className='goalsRight flex-center'>{fat} gr/day</span>
         </div>
         
