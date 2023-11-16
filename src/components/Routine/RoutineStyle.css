@@ -1,0 +1,165 @@
+h3{
+    margin-left: 7.5em;
+    margin-top: 3em;
+    margin-bottom: -3em;
+
+}
+
+.chest{
+    background-image: url('src/assets/imgs/chest.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    height: 15em;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Bebas Neue';
+    font-size: 3rem;
+}
+
+.exercises{
+    margin-left: 9em;
+    margin-right: 9em;
+    margin-top: 4em;
+    padding-bottom: 7em;
+}
+
+.back{
+    background-image: url('src/assets/imgs/back.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    height: 15em;
+    background-size: cover;
+}
+
+.exercisesBanner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.legs{
+    background-image: url('src/assets/imgs/legs.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    height: 15em;
+    background-size: cover;
+}
+
+.arms{
+    background-image: url('src/assets/imgs/arms.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    height: 15em;
+    background-size: cover;
+}
+
+.shoulders{
+    background-image: url('src/assets/imgs/shoulders.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 15em;
+    background-size: cover;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+.dotsExer{
+    margin-top: 1em;
+    width: 19vw;
+    height: 2em;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    h3{
+        margin: 2em 0 0 8vw;
+    }
+    .mobile{
+        display: flex;
+    }
+
+    .cards{
+        display: none;
+    }
+
+    .exercises{
+        margin: 0;
+        padding-bottom: 3em;
+    }
+
+    .exercises h1{
+        margin-left: 8vw;
+    }
+
+    .exercisesBanner{
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .chest {
+        width: 100vw;
+    }
+
+    .back {
+        width: 100vw;
+    }
+
+    .legs {
+        width: 100vw;
+    }
+
+    .shoulders {
+        width: 100vw;
+        margin: 0;
+    }
+
+    .arms{
+        width: 100vw;
+    }
+    
+    .dot{
+        height: 15px;
+    }
+
+    .getTrainer{
+        gap: 0.5em;
+    }
+    .getTrainer h1{
+        font-size: 2.2rem;
+        padding: 0 0.2em;
+    }
+    .flexColumn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 4em;
+       }
+   .line{
+        width: 75%;
+        height: 2px;
+        gap: 2em;
+   }
+
+   
+}
+

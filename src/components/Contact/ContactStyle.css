@@ -1,0 +1,155 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em 5em 0 5em;
+    margin-bottom: 6em;
+}
+
+.leftContact{
+    color: white;
+    width: 45%;
+    padding-top: 2em;
+}
+
+.leftContact p{
+    color: rgba(129, 129, 129, 1);
+}
+
+.rightContact{
+   color: white;
+   background-color: rgba(24, 24, 24, 1);
+   width: 45%;
+   padding: 2em 5em;   
+}
+
+.rightContact h1{
+    margin-bottom: 0.5em;
+}
+
+.rightContact input{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(193, 193, 193);
+    width: 100%;
+    height: 2.9em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    font-size: 0.9rem;
+}
+
+.rightContact select{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 0px;
+    width: 100%;
+    height: 2.9em;
+    margin-bottom: 1em;
+    color: rgb(163, 163, 163);
+    padding-left: 1em;
+    font-size: 0.9rem;
+}
+
+.comments{
+    padding-top: 1.5em;
+    padding-bottom: 7em;
+}
+
+.info{
+    margin-top: 2em;
+    justify-content: space-between;
+    
+}
+.firstLine{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-bottom: 1.5em;
+    gap: 1em;
+   
+}
+
+.firstLine img{
+    margin-bottom: 1em;
+}
+
+
+.secondLine{
+    flex-direction: column;
+    gap: 1em;
+}
+
+.secondLine img{
+    margin-bottom: 1em;
+}
+
+.contactIcons img{
+    width: 3em;
+    margin-right: 2em;
+    cursor: pointer;
+}
+
+.contactLine{
+    width: 3.5em;
+}
+
+.contactBtn{
+    background-color: rgba(217, 217, 217, 1);
+    font-family: 'Bebas Neue';
+    padding: 0.5em 2em;
+    border: none;
+    font-size: 1.3rem;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+.contactBtn:active{
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.50) inset;
+
+}
+
+.mapContact{
+    padding-bottom: 6em;
+}
+
+@media screen and (max-width: 768px){
+    .contact{
+        flex-direction: column;
+        width: 100vw;
+        margin: auto;
+        padding: 0;
+    }
+
+    .info{
+        display: block;
+    }
+    .leftContact{
+        width: 90vw;
+        padding: 2em;
+    }
+
+    .firstLine{
+        justify-content: space-between;
+        width: 100vw;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .secondLine{
+        gap: 2em;
+        width: 90vw;
+        flex-direction: column;
+    } 
+
+    .rightContact{
+        width: 100vw;
+        margin: 3em 0;
+        padding: 2em;
+        
+    }
+}
+
+
+

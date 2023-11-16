@@ -1,0 +1,13 @@
+.banner img{
+   width: 100vw;
+}
+
+.banner h1{
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 4rem;
+    margin-bottom: 10em;
+    margin-top: -5em;
+    margin-left: 4em;
+}
+

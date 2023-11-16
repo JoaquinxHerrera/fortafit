@@ -1,0 +1,57 @@
+.footer{
+    background-image: url('src/assets/imgs/BackgroundFooter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    align-content: center;
+
+}
+
+.bottomIcons{
+    list-style: none;
+    gap: 3em;
+    align-items: center;
+    margin: auto;
+    padding-right: 12em;
+
+}
+
+.bottomIcons a:hover{
+    color: white;
+}
+
+.bottomIcons li{
+    padding-bottom: 3em;
+    
+}
+
+.bottomIcons img{
+    width: 2.5em;
+    transition: transform 0.3s;
+}
+
+.bottomIcons img:hover {
+    transform: scale(1.2); 
+}
+
+
+
+
+
+.iconFooter{
+    align-content: center;
+    width: 12em;
+    height: 7em;
+    padding-left: 8em;
+    padding-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    .iconFooter{
+        display: none;
+    }
+
+    .bottomIcons{
+        padding: 0;
+    }
+}
