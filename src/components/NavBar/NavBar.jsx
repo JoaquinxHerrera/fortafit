@@ -30,7 +30,7 @@ function NavBar() {
   return (
     <div className="header" ref={menuRef}>
         <div>
-            <NavLink to="/"><img src='src/assets/imgs/Logo.png' alt="FortaFit Logo"/></NavLink>
+            <NavLink to="/"><img src='/assets/imgs/Logo.png' alt="FortaFit Logo"/></NavLink>
         </div>
         <div className={`menu-icon`} onClick={toggleMenu}>
             <img src='src/assets/imgs/burgerMenu.png' alt="Menu Icon" />
@@ -38,7 +38,7 @@ function NavBar() {
         <nav className={`navLinks ${isMenuOpen && "open"}`} >
           <div className="loginMobile">
             <NavLink className='loginBtn'to='/login' onClick={toggleMenu}>Log in</NavLink>
-            <NavLink><img src="src/assets/imgs/UserIcon.png" alt="" /></NavLink>
+            <NavLink><img src="public/assets/imgs/UserIcon.png" alt="" /></NavLink>
           </div>
           <ul>
             <li><NavLink to='/' className={'linksMobile'} onClick={toggleMenu}>Home</NavLink></li>
