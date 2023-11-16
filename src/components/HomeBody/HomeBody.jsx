@@ -7,19 +7,19 @@ import CarouselRatio from '../Mobile Carousel/CarouselRatio'
 function HomeBody() {
     const myCarouselItems = [
         {
-            src: 'src/assets/imgs/Card1.png',
+            src: '/assets/imgs/Card1.png',
             title: 'MACRO CALCULATOR',
         },
         {
-            src: 'src/assets/imgs/Card2.png',
+            src: '/assets/imgs/Card2.png',
             title: 'ROUTINE',
         },
         {
-            src: 'src/assets/imgs/Card3.png',
+            src: '/assets/imgs/Card3.png',
             title: 'TRAINER',
         },
         {
-            src: 'src/assets/imgs/Card4.png',
+            src: '/assets/imgs/Card4.png',
             title: 'DISCOUNTS',
         },
     ]
@@ -29,11 +29,11 @@ function HomeBody() {
         <div className='dumbellContainer'><img src="src/assets/imgs/Dumbell.png" alt="" /></div>
         <div className='trainers'>
             <p>We count with more than 30 certified personal trainers that will follow you along your journey, giving you the best advises and support to help you achieve your goals!</p>
-            <img src="src/assets/imgs/Trainers.png" alt="" />
+            <img src="/assets/imgs/Trainers.png" alt="" />
         </div>
         <div className='cards'>
             <ActionAreaCard
-            img='src/assets/imgs/Card1.png'
+            img='/assets/imgs/Card1.png'
             title='MACRO CALCULATOR'
             />
             <ActionAreaCard
