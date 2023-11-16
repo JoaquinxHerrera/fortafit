@@ -7,7 +7,7 @@ function Hero() {
       <div className='hero'>
         
         <h1>Be the best version of yourself.</h1>
-        <img className='scrollArrow'src="src/assets/imgs/ScrollMobile.png" alt="" />
+        <img className='scrollArrow'src="/assets/imgs/ScrollMobile.png" alt="" />
       </div>
       <>
       <HomeBody></HomeBody>

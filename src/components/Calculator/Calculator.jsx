@@ -128,7 +128,7 @@ const Calculator = () => {
     <div>
         <Banner
         className='banner'
-        img='src/assets/imgs/CalculatorBanner.png'
+        img='/assets/imgs/CalculatorBanner.png'
         title='Macro Calculator'
         isMobile={isMobile}
         />
@@ -170,27 +170,27 @@ const Calculator = () => {
                     </div>
                     <div>
                         <button className="calcuBtn center-vert" onClick={() => calculateMacros(age, height, weight, activityLevel, gender)}>Calculate
-                        <img src="src/assets/imgs/CalcuBtn.png" alt="" />
+                        <img src="/assets/imgs/CalcuBtn.png" alt="" />
                         </button>
                     </div>
                 </div>
                 <div className="calcuRight">
-                    <img  src="src/assets/imgs/CalcuImgRight.png" alt="" />
+                    <img  src="/assets/imgs/CalcuImgRight.png" alt="" />
                 </div>
             </div>
             <div className="goals"ref={chartsContainerRef}>
                 <h1>goals:</h1>
                 <div className="leyenda flex-center ">
                     <div className="center-vert">
-                        <img src="src/assets/imgs/CarbDot.png" alt="" />
+                        <img src="/assets/imgs/CarbDot.png" alt="" />
                         <span>Carbohidrates</span>
                     </div>
                     <div className="center-vert">
-                        <img src="src/assets/imgs/ProtDot.png" alt="" />
+                        <img src="/assets/imgs/ProtDot.png" alt="" />
                         <span>Protein</span>
                     </div>
                     <div className="center-vert">
-                        <img src="src/assets/imgs/FatDot.png" alt="" />
+                        <img src="/assets/imgs/FatDot.png" alt="" />
                         <span>Fat</span>
                     </div>
                 </div>
@@ -208,7 +208,7 @@ const Calculator = () => {
             </div>
         </div>
         <div className="black flex-center">
-            <img className='calcuDot' src="src/assets/imgs/CalcuDot.png" alt="" />
+            <img className='calcuDot' src="/assets/imgs/CalcuDot.png" alt="" />
         </div>
 
         

@@ -25,7 +25,7 @@ const FilterComponent = () => {
   return (
     <div className="filter">
         <Banner
-        img='src/assets/imgs/ScheduleBanner.png'
+        img='/assets/imgs/ScheduleBanner.png'
         title='Schedule by Day'
         isMobile={isMobile}
         />

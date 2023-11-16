@@ -33,12 +33,12 @@ function NavBar() {
             <NavLink to="/"><img src='/assets/imgs/Logo.png' alt="FortaFit Logo"/></NavLink>
         </div>
         <div className={`menu-icon`} onClick={toggleMenu}>
-            <img src='src/assets/imgs/burgerMenu.png' alt="Menu Icon" />
+            <img src='/assets/imgs/burgerMenu.png' alt="Menu Icon" />
         </div>
         <nav className={`navLinks ${isMenuOpen && "open"}`} >
           <div className="loginMobile">
             <NavLink className='loginBtn'to='/login' onClick={toggleMenu}>Log in</NavLink>
-            <NavLink><img src="public/assets/imgs/UserIcon.png" alt="" /></NavLink>
+            <NavLink><img src="/assets/imgs/UserIcon.png" alt="" /></NavLink>
           </div>
           <ul>
             <li><NavLink to='/' className={'linksMobile'} onClick={toggleMenu}>Home</NavLink></li>
@@ -50,7 +50,7 @@ function NavBar() {
           </ul>
           <div className="login">
             <NavLink className='loginBtn'to='/login'>Log in</NavLink>
-            <NavLink><img src="src/assets/imgs/UserIcon.png" alt="" /></NavLink>
+            <NavLink><img src="/assets/imgs/UserIcon.png" alt="" /></NavLink>
           </div>
         </nav>
     </div>

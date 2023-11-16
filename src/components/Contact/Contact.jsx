@@ -21,7 +21,7 @@ function Contact() {
   return (
     <div>
         <Banner
-        img='src/assets/imgs/RoutineBanner.png'
+        img='/assets/imgs/RoutineBanner.png'
         title="Contact Us"
         isMobile={isMobile}
         />
@@ -34,13 +34,13 @@ function Contact() {
                         <div className="flex firstLine">
                             <div>
                                 <h2>Los Angeles, USA</h2>
-                                <img className="contactLine"src="./src/assets/imgs/LineContact.png" alt="" />
+                                <img className="contactLine"src="/assets/imgs/LineContact.png" alt="" />
                                 <p>12 Golds gym street,</p>
                                 <p>  Shwartz, 3301, USA</p>
                             </div>
                             <div>
                                 <h2>Opening hours</h2>
-                                <img className="contactLine" src="./src/assets/imgs/LineContact.png" alt="" />
+                                <img className="contactLine" src="/assets/imgs/LineContact.png" alt="" />
                                 <p>Mon to Fri: 7:30 am — 1:00 am</p>
                                 <p>Mon to Fri: 7:30 am — 1:00 am</p>
                             </div>
@@ -48,17 +48,17 @@ function Contact() {
                         <div className="flex secondLine">
                             <div>
                                 <h2>Information</h2>
-                                <img className="contactLine" src="./src/assets/imgs/LineContact.png" alt="" />
+                                <img className="contactLine" src="/assets/imgs/LineContact.png" alt="" />
                                 <p>+332-312-1231</p>
                                 <p>fortafit@gymail.com</p>
                             </div>
                             <div>
                                 <h2>Follow Us On</h2>
-                                <img className="contactLine" src="./src/assets/imgs/LineContact.png" alt="" />
+                                <img className="contactLine" src="/assets/imgs/LineContact.png" alt="" />
                                 <div className="contactIcons">
-                                    <img src="./src/assets/imgs/InstagramContact.png" alt="" />
-                                    <img src="./src/assets/imgs/YoutubeContact.png" alt="" />
-                                    <img src="./src/assets/imgs/FacebookContact.png" alt="" />
+                                    <img src="/assets/imgs/InstagramContact.png" alt="" />
+                                    <img src="/assets/imgs/YoutubeContact.png" alt="" />
+                                    <img src="/assets/imgs/FacebookContact.png" alt="" />
                                 </div>
                             </div>
                         </div>

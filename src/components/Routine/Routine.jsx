@@ -21,19 +21,19 @@ function Routine() {
 
     const myCarouselItemsRoutine = [
         {
-            src: 'src/assets/imgs/Caroussel1.png',
+            src: '/assets/imgs/Caroussel1.png',
             title: 'FULL BODY',
         },
         {
-            src: 'src/assets/imgs/Caroussel2.png',
+            src: '/assets/imgs/Caroussel2.png',
             title: 'PUSH-PULL-LEGS',
         },
         {
-            src: 'src/assets/imgs/Caroussel3.png',
+            src: '/assets/imgs/Caroussel3.png',
             title: '5 DAYS',
         },
         {
-            src: 'src/assets/imgs/Caroussel4.png',
+            src: '/assets/imgs/Caroussel4.png',
             title: 'RUNNING',
         },
     ]
@@ -41,7 +41,7 @@ function Routine() {
   return (
     <div className='homeBody'>
         <Banner
-        img="src/assets/imgs/routineBanner.png"
+        img="/assets/imgs/routineBanner.png"
         title="Get your routine"
         isMobile={isMobile}
         />
@@ -52,19 +52,19 @@ function Routine() {
         
         <div className='cards'>
             <ActionAreaCard
-            img='src/assets/imgs/Caroussel1.png'
+            img='/assets/imgs/Caroussel1.png'
             title='Full body'
             />
             <ActionAreaCard
-            img='src/assets/imgs/Caroussel2.png'
+            img='/assets/imgs/Caroussel2.png'
             title='PUSH-PULL-LEGS'
             />
             <ActionAreaCard
-            img='src/assets/imgs/Caroussel3.png'
+            img='/assets/imgs/Caroussel3.png'
             title='5 DAYS'
             />
             <ActionAreaCard
-            img='src/assets/imgs/Caroussel4.png'
+            img='/assets/imgs/Caroussel4.png'
             title='RUNNING'
             />
         </div>
@@ -87,19 +87,19 @@ function Routine() {
                 </div>
             </div>
             <div className='flex-center center-vert'>
-                <img className='dotsExer noMobile' src="src/assets/imgs/DotsLeft.png" alt="" />
+                <img className='dotsExer noMobile' src="/assets/imgs/DotsLeft.png" alt="" />
                 <div className='shoulders'>
                     <h1>Shoulders</h1>
                 </div>
-                <img className='dotsExer noMobile' src="src/assets/imgs/DotsRight.png" alt="" />
+                <img className='dotsExer noMobile' src="/assets/imgs/DotsRight.png" alt="" />
             </div>
         </div>
         <div className='flexColumn mobile getTrainer'>   
-            <img className='line'src="src/assets/imgs/Line.png" alt="" />
+            <img className='line'src="/assets/imgs/Line.png" alt="" />
             <div className=' flex-center center-vert'>
-                   <img className='dot'src="src/assets/imgs/yellowDot.png" alt="" /><h1>Get your personal trainer</h1><img className='dot' src="src/assets/imgs/yellowDot.png" alt="" />
+                   <img className='dot'src="/assets/imgs/yellowDot.png" alt="" /><h1>Get your personal trainer</h1><img className='dot' src="src/assets/imgs/yellowDot.png" alt="" />
             </div>
-            <img className='line' src="src/assets/imgs/Line.png" alt="" />  
+            <img className='line' src="/assets/imgs/Line.png" alt="" />  
         </div>
 
     </div>
