@@ -82,12 +82,16 @@ function Trainer() {
         <div className='premiumService'>
             <h1>Premium Service</h1>
             <div className="imgPremium"><img src="/assets/imgs/ZoomTrainer.png" alt="" /></div>
-            <p>With our premium membership you will get:</p>
-            <ul>
-                <li>A 24hs personal trainer. </li>
-                <li>Zoom calls to solve any doubts and get corrections of exercises executions.</li>
-                <li>More tips regarding nutrition and self development.</li>
-            </ul>
+            <div className="premiumText">
+                <p>With our premium membership you will get:</p>
+                <ul>
+                    <li>A 24hs personal trainer. </li>
+                    <li>Zoom calls to solve any doubts and get corrections of exercises executions.</li>
+                    <li>More tips regarding nutrition and self development.</li>
+                </ul>
+            </div>
+            
+            
             <div className='dumbellContainer'><img src="/assets/imgs/Dumbell.png" alt="" /></div>
 
         </div>
