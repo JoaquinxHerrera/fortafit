@@ -32,22 +32,23 @@ function HomeBody() {
             <img src="/assets/imgs/Trainers.png" alt="" />
         </div>
         <div className='cards'>
-            <ActionAreaCard
+            <NavLink to='/calculator'><ActionAreaCard
             img='/assets/imgs/Card1.png'
             title='MACRO CALCULATOR'
-            />
-            <ActionAreaCard
+            /></NavLink>
+            <NavLink to='/routine'><ActionAreaCard
             img='/assets/imgs/Card2.png'
             title='ROUTINE'
             />
-            <ActionAreaCard
+            </NavLink>
+            <NavLink to='/trainer'><ActionAreaCard
             img='/assets/imgs/Card3.png'
             title='TRAINER'
-            />
-            <ActionAreaCard
+            /></NavLink>
+            <NavLink to='/contact'><ActionAreaCard
             img='/assets/imgs/Card4.png'
             title='DISCOUNTS'
-            />
+            /></NavLink>
         </div>
         <div className='carousel'>
             <CarouselRatio items={myCarouselItems}/>
