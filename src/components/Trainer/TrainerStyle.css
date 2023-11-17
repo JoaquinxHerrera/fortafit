@@ -19,6 +19,7 @@
 
 .personalTrainer img{
     width: 30em;
+    padding-bottom: 1em;
 }
 .personalTrainer button{
     padding: 0.7em 2em;

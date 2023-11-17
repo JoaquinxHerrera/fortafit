@@ -26,7 +26,7 @@ function Trainer() {
         />
         <div className="personalTrainer">
             <p>We count with +30 certified personal trainers. Get in touch with one to get all the advice you need!</p>
-            <img src="/assets/imgs/avatarsTrainer.png" alt="" />
+            <img src="/assets/imgs/AvatarsTrainer.png" alt="" />
             <button><b>GET A PERSONAL TRAINER</b></button>
         </div>
         <div className="pricing flex-center">
