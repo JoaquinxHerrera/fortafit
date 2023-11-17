@@ -227,6 +227,7 @@
 
     .intermediatePack{
         padding: 2em;
+        margin-top: 2em;
         box-shadow: 4px 4px 4px 4px #59564A;
         height: auto;
     }
@@ -260,17 +261,19 @@
         margin:auto;
     }
 
-    .premiumService p{
-        margin-left:5em;
+    .premiumText{
+        width: auto;
+        margin: auto;
+        margin-left: 2.5em;
+        padding: 1em;
+        padding-left: 2em;
     }
-
-    .premiumService ul{
-        margin-left: 6em;
-
-    }
+    
     .dumbellContainer{
         width: 100vw;
-        margin: auto;
+        margin-left: auto;
+        
+
     }
 
     .dumbellContainer img{

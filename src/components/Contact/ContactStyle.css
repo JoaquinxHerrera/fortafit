@@ -37,6 +37,10 @@
     font-size: 0.9rem;
 }
 
+.rightContact input::placeholder{
+    color: rgb(163, 162, 162);
+}
+
 .rightContact select{
     appearance: none;
     -webkit-appearance: none;

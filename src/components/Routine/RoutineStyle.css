@@ -18,6 +18,8 @@ h3{
 h1{
     font-family: 'Bebas Neue';
     font-size: 3rem;
+    margin: 0;
+    padding: 0;
 }
 
 .exercises{
@@ -113,6 +115,7 @@ h1{
     .exercisesBanner{
         flex-direction: column;
         gap: 1em;
+        padding: 0;
     }
 
     .chest {
@@ -129,11 +132,13 @@ h1{
 
     .shoulders {
         width: 100vw;
+        padding-top: 1em;
         margin: 0;
     }
 
     .arms{
         width: 100vw;
+        margin-bottom: 1em;
     }
     
     .dot{

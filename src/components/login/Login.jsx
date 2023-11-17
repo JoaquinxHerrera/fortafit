@@ -87,7 +87,7 @@ const Login = () => {
                 {isSignUp && 
                   <div>
                     <p>New to FortaFit? <span className="signLink" onClick={handleSignUpClick}>Sign Up</span></p>
-                    <p><span className='spanInfo'>Test Account</span> - fortafit@gymail.com <span className='spanInfo'>/</span> Password1!</p>
+                    <p><span className='spanInfo'>Demo Account</span> - fortafit@gymail.com <span className='spanInfo'>/</span> Password1!</p>
                   </div>
                 }
 

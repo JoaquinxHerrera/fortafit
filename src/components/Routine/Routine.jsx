@@ -97,7 +97,7 @@ function Routine() {
         <div className='flexColumn mobile getTrainer'>   
             <img className='line'src="/assets/imgs/Line.png" alt="" />
             <div className=' flex-center center-vert'>
-                   <img className='dot'src="/assets/imgs/YellowDot.png" alt="" /><h1>Get your personal trainer</h1><img className='dot' src="src/assets/imgs/yellowDot.png" alt="" />
+                   <img className='dot'src="/assets/imgs/YellowDot.png" alt="" /><h1>Get your personal trainer</h1><img className='dot' src="src/assets/imgs/YellowDot.png" alt="" />
             </div>
             <img className='line' src="/assets/imgs/Line.png" alt="" />  
         </div>
