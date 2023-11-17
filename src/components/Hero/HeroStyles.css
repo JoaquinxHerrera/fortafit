@@ -17,8 +17,22 @@
 }
 
 .scrollArrow{
-    display: none;
+    display: flex;
+    width: 4em;
+    position: absolute;
+    bottom: 5%;
+    left: 47.5%;
+    animation: moveArrow 1s alternate-reverse infinite;
 }
+
+@keyframes moveArrow{
+    from{
+        transform: translateY(-30px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}   
 
 
 @media screen and (max-width: 768px) {
@@ -28,7 +42,6 @@
     .scrollArrow{
         display: flex;
         width: 4em;
-        
         position: absolute;
         bottom: 5%;
         left: 44%;

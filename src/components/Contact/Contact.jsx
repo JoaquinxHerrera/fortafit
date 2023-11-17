@@ -21,7 +21,7 @@ function Contact() {
   return (
     <div>
         <Banner
-        img='/assets/imgs/RoutineBanner.png'
+        img='/assets/imgs/routineBanner.png'
         title="Contact Us"
         isMobile={isMobile}
         />

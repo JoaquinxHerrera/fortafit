@@ -29,11 +29,11 @@ function NavBar() {
 
   return (
     <div className="header" ref={menuRef}>
-        <div>
+        <div className="logoHeader">
             <NavLink to="/"><img src='/assets/imgs/Logo.png' alt="FortaFit Logo"/></NavLink>
         </div>
         <div className={`menu-icon`} onClick={toggleMenu}>
-            <img src='/assets/imgs/burgerMenu.png' alt="Menu Icon" />
+            <img src='/assets/imgs/BurgerMenu.png' alt="Menu Icon" />
         </div>
         <nav className={`navLinks ${isMenuOpen && "open"}`} >
           <div className="loginMobile">
@@ -48,11 +48,11 @@ function NavBar() {
             <li><NavLink to='/trainer' className={'linksMobile'} onClick={toggleMenu}>Trainer</NavLink></li>
             <li><NavLink to='/contact' className={'linksMobile'} onClick={toggleMenu}>Contact</NavLink></li>
           </ul>
-          <div className="login">
+        </nav>
+        <div className="login">
             <NavLink className='loginBtn'to='/login'>Log in</NavLink>
             <NavLink><img src="/assets/imgs/UserIcon.png" alt="" /></NavLink>
           </div>
-        </nav>
     </div>
   )
 }
